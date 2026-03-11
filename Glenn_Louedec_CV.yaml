@@ -16,6 +16,29 @@ cv:
   sections:
     summary:
       - Software engineer based in Tokyo with experience in Python/Flask backend development, API integrations, and production systems. Currently expanding expertise in DevOps, cloud infrastructure, automation, and scalable backend solutions. Holds a Master’s in Engineering from Keio University and Centrale Marseille.
+    experience:
+      - company: BHJ Soft Corporation
+        position: Fullstack Software Engineer
+        date:
+        start_date: 2025-04
+        end_date: 2026-06
+        location: Ebina, JP
+        summary:
+        highlights:
+          - Built Terraform IaC from scratch to deploy and manage AWS infrastructure.
+          - Developed and maintained ETL pipelines and backend services in Python/Flask/FastAPI in sync and async environments.
+          - Integrated and maintained external carrier APIs and marketplaces (DHL,UPS, Japan Post, FedEx, Shopify, eBay). Improved scalability and reliability by refactoring core components and legacy code.
+          - Automated deployment workflows using GitHub Actions and Heroku/AWS pipelines.
+          - Participated in code reviews and implemented best practices for maintain ablebackend systems.
+      - company: Nalyze
+        position: Intern
+        date:
+        start_date: 2022-06
+        end_date: 2022-08
+        location: Nantes, France
+        summary:
+        highlights:
+          - Developed a Python web app to fetch and integrate GitHub data, reducingdata retrieval from 30–60 minutes to a few minutes.
     education:
       - institution: Keio University
         area: Computer Engineering
@@ -40,29 +63,6 @@ cv:
           - 'Activities and societies: GInfo (IT club), MDV (Sailing club)'
           - General engineering & managment with specialization in computer sciences.
           - 'Chosen curriculum: MIE (Devweb, Database), C++ object oriented programming, Front-end web development,AI and Games.'
-    experience:
-      - company: BHJ Soft Corporation
-        position: Fullstack Software Engineer
-        date:
-        start_date: 2025-04
-        end_date: 2026-06
-        location: Ebina, JP
-        summary:
-        highlights:
-          - Built Terraform IaC from scratch to deploy and manage AWS infrastructure.
-          - Developed and maintained ETL pipelines and backend services in Python/Flask.
-          - Integrated and maintained external carrier APIs and marketplaces (DHL,UPS, Japan Post, FedEx, Shopify, eBay). Improved scalability and reliability by refactoring core components and legacy code.
-          - Automated deployment workflows using GitHub Actions and Heroku/AWS pipelines.
-          - Participated in code reviews and implemented best practices for maintain ablebackend systems.
-      - company: Nalyze
-        position: Intern
-        date:
-        start_date: 2022-06
-        end_date: 2022-08
-        location: Nantes, France
-        summary:
-        highlights:
-          - Developed a Python web app to fetch and integrate GitHub data, reducingdata retrieval from 30–60 minutes to a few minutes.
     skills:
       - label: Languages
         details: Python, Go, PHP, JS/TS
