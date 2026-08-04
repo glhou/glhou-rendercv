@@ -1,0 +1,29 @@
+name: Build and Commit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - run: make build
+
+      - run: |
+          git config user.name "glhou[bot]"
+          git config user.email "glhou[bot]@users.noreply.github.com"
+
+          if git diff --quiet; then
+            echo "Nothing to commit"
+            exit 0
+          fi
+
+          git add .
+          git commit -m "chore: update generated files"
+          git push

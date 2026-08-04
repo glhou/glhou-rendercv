@@ -15,19 +15,23 @@ cv:
   custom_connections:
   sections:
     summary:
-      - Software engineer based in Tokyo with experience in Python/Flask backend development, API integrations, and production systems. Currently expanding expertise in DevOps, cloud infrastructure, automation, and scalable backend solutions. Holds a Master’s in Engineering from Keio University and Centrale Marseille.
+      - Software engineer based in Tokyo with experience in Python/Flask/FastAPI backend development, API integrations, and production systems. Currently expanding expertise in DevOps, cloud infrastructure, automation, and scalable backend solutions. I like good and readable code and I am currently learning Golang. Holds a Master’s in Engineering from Keio University and Centrale Marseille.
     experience:
       - company: BHJ Soft Corporation
         position: Fullstack Software Engineer
         date:
         start_date: 2025-04
-        end_date: 2026-06
+        end_date:
         location: Ebina, JP
         summary:
         highlights:
-          - Built Terraform IaC from scratch to deploy and manage AWS infrastructure.
-          - Developed and maintained ETL pipelines and backend services in Python/Flask/FastAPI in sync and async environments.
-          - Integrated and maintained external carrier APIs and marketplaces (DHL,UPS, Japan Post, FedEx, Shopify, eBay). Improved scalability and reliability by refactoring core components and legacy code.
+          - Built a microservice to access mutliple APIs (DHL, UPS, Japan Post, Fedex, Sagawa, Yamato) and get shipping fees under 10 seconds.
+          - Integrated and maintained external marketplaces (Shopify, eBay). 
+          - Built Terraform IaC from scratch to deploy and manage microservice on EC2.
+          - Streamed data from database to database with a custom ETL pipelines to copy millions of rows and sync them.
+          - Built in async and sync environment depending on the requirements using Flask and FastAPI.
+          - Optimized sql queries on tables with over one million entrees to run within 5 seconds.
+          - Improved scalability and reliability by refactoring core components and legacy code.
           - Automated deployment workflows using GitHub Actions and Heroku/AWS pipelines.
           - Participated in code reviews and implemented best practices for maintain ablebackend systems.
       - company: Nalyze
