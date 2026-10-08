@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
 cv:
   name: Glenn Louedec
-  headline: Fullstack Python Engineer
+  headline: Software Engineer
   location: Kawasaki, JP
   email: g.louedec@live.fr
   photo:
@@ -33,7 +33,7 @@ cv:
           - Optimized sql queries on tables with over one million entrees to run within 5 seconds.
           - Improved scalability and reliability by refactoring core components and legacy code.
           - Automated deployment workflows using GitHub Actions and Heroku/AWS pipelines.
-          - Participated in code reviews and implemented best practices for maintain ablebackend systems.
+          - Participated in code reviews and documented best practices for maintainable code.
       - company: Nalyze
         position: Intern
         date:
@@ -42,7 +42,7 @@ cv:
         location: Nantes, France
         summary:
         highlights:
-          - Developed a Python web app to fetch and integrate GitHub data, reducingdata retrieval from 30–60 minutes to a few minutes.
+          - Developed a Python web app to fetch and integrate GitHub data, reducing data retrieval from 30–60 minutes to a few minutes.
     education:
       - institution: Keio University
         area: Computer Engineering
@@ -54,7 +54,7 @@ cv:
         summary: Master of Science in Engineering
         highlights:
           - Double degree at Keio University
-          - Master thesis on a taxi carpooling system designed to reduce the number of vehicles in cities. Successfullydemonstrated a 30% reduction in vehicle usage through the implementation of my proposed method.
+          - Master thesis on a taxi carpooling system designed to reduce the number of vehicles in cities. Successfully demonstrated a 30% reduction in vehicle usage through the implementation of my proposed method.
       - institution: École Centrale Méditerrannée
         area: Engineering
         degree: MS
@@ -70,8 +70,8 @@ cv:
     skills:
       - label: Languages
         details: Python, Go, PHP, JS/TS
-      - label: ML Frameworks
-        details: Flask, Symfony, React
+      - label: Frameworks
+        details: Flask, FastAPI, Symfony, React
       - label: Infrastructure
         details: Docker, AWS, Terraform, GitHub Actions
       - label: Spoken Languages
@@ -244,7 +244,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-13'
+  current_date: '2026-10-08'
   render_command:
     design:
     locale:
